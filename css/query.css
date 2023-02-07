@@ -1,0 +1,110 @@
+/** @format */
+
+/* below 375px */
+@media (max-width: 23.5em) {
+  body {
+    margin: 0 auto;
+    background-color: #fff;
+  }
+
+  .container {
+    padding: 2rem;
+  }
+
+  .section-heading {
+    flex-flow: column;
+    margin-bottom: 6rem;
+  }
+
+  .heading__page {
+    width: 100%;
+  }
+
+  .heading__page--sub {
+    flex-flow: column;
+    gap: 2rem;
+  }
+
+  .heading__page--img {
+    display: none;
+  }
+
+  .heading__page--img-mobile {
+    display: block;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  .heading__page h1 {
+    font-size: 5rem;
+  }
+
+  .section-footer {
+    flex-direction: column;
+    margin-bottom: 6rem;
+  }
+
+  .side__box {
+    margin-top: 2.4rem;
+  }
+
+  .logo {
+    height: 3rem;
+  }
+
+  /* BTN ICON MOBILE */
+
+  .header {
+    margin-bottom: 3rem;
+  }
+
+  .nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    width: 60%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s;
+  }
+
+  .hidden-nav {
+  }
+
+  .nav-open .nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .nav-open .mobile-nav--icon[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .mobile-nav--icon[name="menu-outline"] {
+    display: none;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    color: #000019;
+    gap: 4rem;
+  }
+
+  .btn-icon-mobile {
+    display: block;
+  }
+
+  .btn-link:link,
+  .btn-link:visited {
+    color: #000019;
+    font-size: 2.4rem;
+  }
+}
