@@ -1,7 +1,7 @@
 /** @format */
 
-/* below 375px */
-@media (max-width: 23.5em) {
+/* below 500px */
+@media (max-width: 31.25em) {
   body {
     margin: 0 auto;
     background-color: #fff;
@@ -73,15 +73,14 @@
     opacity: 0;
     visibility: hidden;
     transition: all 0.4s;
-  }
-
-  .hidden-nav {
+    transform: translateX(100%);
   }
 
   .nav-open .nav {
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
+    transform: translateX(0);
   }
 
   .nav-open .mobile-nav--icon[name="close-outline"] {
