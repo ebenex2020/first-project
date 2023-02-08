@@ -25,6 +25,7 @@ body {
 
 .container {
   padding: 0 2rem;
+  overflow: hidden;
 }
 
 /* NAVIGATOR */
@@ -34,6 +35,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 6rem;
+  position: relative;
 }
 
 .nav-list {
