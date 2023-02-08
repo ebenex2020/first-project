@@ -21,6 +21,7 @@ body {
   background-color: #fffdfa;
 
   margin: 10rem auto;
+  overflow-x: hidden;
 }
 
 .container {
